@@ -1,0 +1,335 @@
+/*iconos y lineas*/
+.lnr-cross {
+    display: block;
+    color: #ffffff;
+    font-size: 45px;
+    /* To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+  }
+.lnr-menu {
+    display: none;
+    color: #ffffff;
+    font-size: 45px;
+    /* To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+}
+.lnr-user {
+    color: #00a3e1;
+    font-size: 50px;
+    /* To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+  }
+.lnr-license {
+    color: #00a3e1;
+    font-size: 55px;
+    /* To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+  }
+.lnr-chart-bars{
+    color: #00a3e1;
+    font-size: 55px;
+    /* To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+}
+.lnr-envelope{
+    color: #00a3e1;
+    font-size: 55px;
+    /* To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+}
+.menu-icon{
+    margin: 0px 5px 0px 15px;
+    color: #2c2d2f;
+    font-size: 25px; 
+}
+
+.linea {
+    position: relative;
+    background-color:#2c2d2f;
+    height: 1px;
+    max-width: 220px;
+    left: -10px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /*border: 1px solid grey;*/
+}
+body{
+
+    background-color: #2c2d2f;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #e1e1e1;
+    text-decoration: none;
+    line-height: 1.65;
+}
+.body-container{
+    display: flex;
+    height: 100%;
+}
+.body-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.body-header p{
+    font-family: Playfair Display, serif;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    width: inherit;
+    text-align: center;
+    z-index: 2;
+    opacity: 1;
+    font-size: 22px;
+}
+.section-container{
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px 30px;
+}
+.section-container h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: 100%;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.section-header h2{
+    font-size: 40px;
+    color: #00a3e1;
+}
+.section-header img{
+    position: relative;
+    height: inherit;
+    margin-right: 5px;
+}
+.section-content{
+    padding: 0px 10px;
+}
+.section-content p{
+    margin-bottom: 16px;
+}
+/*.about{
+    box-sizing: border-box;
+}*/
+.about-info{
+    padding: 0 10px;
+}
+.field{
+    display: flex;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.field-name{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.menu-oculto-container{
+    display: flex;
+    /** MENU OCULTABLE **
+        position: absolute;
+        width: 240px;
+        left: 0px;
+        top: 0px;
+    */
+    position: absolute;
+    left: -200px;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+}
+.cross-icon{
+    display: flex;
+    background-color: #2c2d2f;
+    width: 50px;
+}
+.menu{
+    width: 200px;
+    background-color:black;
+}
+.perfil-container{
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    height: 200px;
+}
+.perfil-img{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+.perfil-img img{
+    background-size: cover;
+}
+.perfil-nombre{
+    display: flex;
+    width: inherit;
+    position: relative;
+    z-index: 1;
+    height: 40px;
+    align-items: center;
+}
+.perfil-nombre-fondo{
+    display: flex;
+    width: inherit;
+    position: absolute;
+    background-color: cyan;
+    height: inherit;
+    opacity: 0.4;
+}
+.perfil-nombre p{
+    font-family: Playfair Display, serif;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    width: inherit;
+    text-align: center;
+    z-index: 2;
+    opacity: 1;
+    font-size: 20px;
+}
+.botonera-lista{
+    list-style: none;
+    padding: 20px 0px 20px 15px;
+}
+.botonera-lista li{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.item-botonera{
+    display: flex;    
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+.boton-img{
+    height: 40px;
+    left: 5px;
+}
+.boton-tag{
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/*Experiencia*/
+
+.ficha {
+    margin: 20px 0px;
+}
+.ficha-date{
+    font-size: 14px;
+}
+.ficha-margin{
+    margin-left: 10px;
+}
+.ficha-titulo{
+    font-size: 18px;
+}
+.ficha-subtitulo{
+    font-size: 12px;
+    margin: 6px 0px 6px;
+}
+.ficha p{
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+/*habilidades*/
+
+.skill-title{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+.skill-list{
+    list-style: none;
+}
+.skill-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.skill-bottom{
+    width: 100%;
+}
+.skill-progress-background{
+    
+    height: 10px;
+    background-color: #404144;
+    margin-bottom: 10px;
+}
+.skill-progress{
+    position: relative;
+    background-color: #00a3e1;
+    height: 100%;
+    z-index: 1;
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+@media screen and (min-width: 992px){
+    .row-about{
+        display: flex;
+    }
+    .col1{
+        flex: 0 0 66.6%;
+        max-width: 66.6%;
+    }
+    .col2{
+        flex: 0 0 33.3%;
+        max-width: 33.3%;
+    }
+    
+}
+
+@media screen and (min-width: 810px){
+    .body-header{
+        display:none;
+    }
+    .cross-icon{
+        display: none;
+    }
+    .row{
+        display: flex;
+    }
+    .col-ficha{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .menu-oculto-container{
+        position: relative;
+        left: 0px;
+    }
+}
